@@ -1,14 +1,34 @@
-[
+{
+  "users": [
     {
       "id": 1,
-      "title": "Post 1"
+      "name": "json-server",
+      "age": 24
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "name": "Jitendra",
+      "age": 23
     },
     {
       "id": 3,
-      "title": "Post 3"
+      "name": "Sushil",
+      "age": 34
+    },
+    {
+      "id": 4,
+      "name": "Hello ji",
+      "age": 87
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
